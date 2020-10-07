@@ -37,6 +37,8 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 
+import './custom.css';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -105,20 +107,6 @@ ClassicEditor.defaultConfig = {
 			'redo'
         ],
         shouldNotGroupWhenFull: true
-    },
-    fontSize: {
-        options: [
-            9,
-            11,
-            13,
-            'default',
-            17,
-            19,
-            21,
-            23,
-            25
-        ],
-        supportAllValues: true
     },
 	image: {
         styles: [

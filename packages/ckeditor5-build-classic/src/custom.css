@@ -1,0 +1,33 @@
+:root {
+    --ck-border-radius: 0;
+    --ck-color-base-foreground: #fff;
+    --ck-color-base-background: #fff;
+    --ck-color-focus-outer-shadow: none;
+    --ck-color-toolbar-border: none;
+    --ck-color-dropdown-panel-border: none;
+    --ck-color-button-default-hover-background: #edf8ff;
+    --ck-color-button-on-background: #edf8ff;
+    --ck-color-button-on-hover-background: #edf8ff;
+    --ck-color-button-on-active-background: #edf8ff;
+    --ck-font-size-base: 1rem;
+    --ck-font-face: inherit;
+    --ck-font-size-tiny: 0.75rem;
+    --ck-font-size-small: 0.9rem;
+    --ck-font-size-normal: 1rem;
+    --ck-font-size-big: 1.2em;
+    --ck-font-size-large: 1.6em;
+}
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+    border-bottom-width: initial;
+}
+.ck.ck-toolbar {
+    border-bottom: 2px solid #edf8ff;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border: none;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
+    border: none;
+    box-shadow: none;
+}
