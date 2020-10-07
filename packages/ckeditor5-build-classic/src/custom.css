@@ -23,6 +23,11 @@
 .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
     border-bottom-width: initial;
 }
+
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+    background: #bfbfbf;
+}
+
 .ck.ck-toolbar {
     border-bottom: 2px solid #edf8ff;
 }
