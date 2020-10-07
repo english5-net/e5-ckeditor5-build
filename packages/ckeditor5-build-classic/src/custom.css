@@ -3,12 +3,15 @@
     --ck-color-base-foreground: #fff;
     --ck-color-base-background: #fff;
     --ck-color-focus-outer-shadow: none;
+    --ck-color-focus-disabled-shadow: none;
+    --ck-color-shadow-inner: none;
     --ck-color-toolbar-border: none;
     --ck-color-dropdown-panel-border: none;
     --ck-color-button-default-hover-background: #edf8ff;
     --ck-color-button-on-background: #edf8ff;
     --ck-color-button-on-hover-background: #edf8ff;
     --ck-color-button-on-active-background: #edf8ff;
+    --ck-icon-size: calc(var(--ck-line-height-base)*var(--ck-font-size-tiny));
     --ck-font-size-base: 1rem;
     --ck-font-face: inherit;
     --ck-font-size-tiny: 0.75rem;
