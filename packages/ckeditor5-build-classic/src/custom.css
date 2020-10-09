@@ -1,4 +1,5 @@
 :root {
+    --ck-editor-min-height: 400px;
     --ck-border-radius: 0;
     --ck-color-base-foreground: #fff;
     --ck-color-base-background: #fff;
@@ -19,9 +20,15 @@
     --ck-font-size-normal: 1rem;
     --ck-font-size-big: 1.2em;
     --ck-font-size-large: 1.6em;
+    --ck-image-style-spacing: 0.8em;
 }
 .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
     border-bottom-width: initial;
+}
+
+.ck.ck-editor__editable_inline {
+    min-height: var(--ck-editor-min-height);
+    padding: var(--ck-spacing-standard) var(--ck-spacing-standard);
 }
 
 .ck.ck-toolbar .ck.ck-toolbar__separator {
@@ -38,4 +45,12 @@
 .ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
     border: none;
     box-shadow: none;
+}
+
+.ck-content .image {
+    margin: 0 auto;
+}
+
+.ck.ck-editor__editable_inline>:first-child {
+    margin-top: 0;
 }
